@@ -20,6 +20,9 @@ function getFetch(){
   .then(res => res.json()) // parse response as JSON
   .then(data => {
     console.log(data)
+    if(data === null || data === undefined) {
+      alert('Model Not Available, Try Searching for a Different Model!')
+    }
     document.querySelector('#engine').innerText = data.engineAndTransmission['displacementName']
 
     document.querySelector('#power').innerText = data.engineAndTransmission['powerName']
