@@ -37,6 +37,18 @@ form {
 }
 input, button {
   width: 10%;
+  text-align: center;
+}
+
+.searchInfo {
+  border-radius: 2px;
+  padding-bottom: 10px;
+}
+
+#searchBtn {
+  margin-top: 15px;
+  padding: 5px 5px;
+  border-radius: 60px;
 }
 
 #img{
