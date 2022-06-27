@@ -46,8 +46,9 @@ input, button {
 }
 
 #searchBtn {
+  width: 80px;
   margin-top: 15px;
-  padding: 5px 5px;
+  padding: 8px 5px;
   border-radius: 60px;
   cursor: pointer;
 }
